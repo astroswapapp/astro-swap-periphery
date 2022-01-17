@@ -1612,7 +1612,7 @@ contract RouterEventEmitter {
 }
 
 
-// File contracts/WagyuRouter.sol
+// File contracts/AstroRouter.sol
 
 pragma solidity =0.6.6;
 
@@ -1621,7 +1621,7 @@ pragma solidity =0.6.6;
 
 
 
-contract WagyuRouter is IPancakeRouter02 {
+contract AstroRouter is IPancakeRouter02 {
     using SafeMath for uint;
 
     address public immutable override factory;
